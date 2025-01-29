@@ -1,0 +1,13 @@
+{
+  "name": "to-do-list-postgresql",
+  "version": "1.0.0",
+  "description": "Um site de lita de tarefas feito com ReactJS, NodeJS, ExpressJS e PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix frontend && npm install --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "author": "Renan Albuquerque",
+  "license": "ISC"
+}
