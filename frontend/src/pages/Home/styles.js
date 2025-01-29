@@ -51,7 +51,7 @@ export const Main = styled.main`
     outline: none;
     color: ${Themes.dark_gray};
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 1.2em;
 
     &:hover {
       cursor: pointer;
