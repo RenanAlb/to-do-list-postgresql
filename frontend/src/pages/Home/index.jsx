@@ -107,7 +107,7 @@ const Home = () => {
               }}
               placeholder="Nova tarefa"
             />
-            <button onClick={handleAdicionarTarefa}>Concluir</button>
+            <button onClick={handleAdicionarTarefa}>+</button>
           </section>
           <section className="render-tarefas">
             {fetchTarefas.length > 0 &&
