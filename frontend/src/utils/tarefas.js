@@ -1,4 +1,4 @@
-const url = "http://localhost:8080";
+const url = "https://to-do-list-postgresql-fyr2.onrender.com";
 
 export const criarTarefa = async (tarefa, id) => {
   try {

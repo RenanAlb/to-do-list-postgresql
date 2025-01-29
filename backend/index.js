@@ -16,7 +16,7 @@ const port = 8080;
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://to-do-list-postgresql-fyr2.onrender.com",
     credentials: true,
   })
 );
