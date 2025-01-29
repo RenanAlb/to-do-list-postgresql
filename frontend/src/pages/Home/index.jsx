@@ -8,6 +8,7 @@ import {
   getTarefas,
 } from "../../utils/tarefas";
 import Animation from "../../Components/Animation";
+import useNavigate from "react-router-dom";
 
 const Home = () => {
   const [dadosUser, setDadosUser] = useState({});
@@ -18,14 +19,19 @@ const Home = () => {
   const [indexTarefa, setIndexTarefa] = useState(null);
   const [novaTarefa, setNovaTarefa] = useState("");
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     const fetchCredenciaisCliente = async () => {
       setIsLoading(true);
       const response = await credenciaisCliente();
-      if (response.ok) {
+      if (response?.ok) {
         console.log(response);
         setDadosUser(response.response);
         setIsLoading(false);
+      } else {
+        navigate("/");
+        return;
       }
     };
 
