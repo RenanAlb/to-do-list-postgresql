@@ -48,7 +48,7 @@ const Cadastro = () => {
         />
         <Button type="submit">Cadastrar</Button>
         <p>
-          Já tem uma conta? <a href="">Clique aqui</a>
+          Já tem uma conta? <a href="/">Clique aqui</a>
         </p>
       </Form>
     </Container>
