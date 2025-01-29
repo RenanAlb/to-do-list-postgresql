@@ -8,7 +8,7 @@ import {
   getTarefas,
 } from "../../utils/tarefas";
 import Animation from "../../Components/Animation";
-import useNavigate from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [dadosUser, setDadosUser] = useState({});
