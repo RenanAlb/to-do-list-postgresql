@@ -6,7 +6,7 @@ import { MdOutlineDriveFileRenameOutline } from "react-icons/md";
 export const Container = styled.div`
   background-color: ${Themes.black};
   width: 100%;
-  height: 100dvh;
+  min-height: 100dvh;
 `;
 
 export const Global = styled.div`
