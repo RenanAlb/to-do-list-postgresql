@@ -20,7 +20,7 @@ const Cadastro = () => {
 
     setIsLoading(true);
 
-    const response = await cadastrarCliente(nome, senha);
+    const response = await cadastrarCliente(nome.trim(), senha.trim());
 
     console.log(response);
 

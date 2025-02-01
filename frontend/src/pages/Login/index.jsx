@@ -21,7 +21,7 @@ const Login = () => {
 
     setIsLoading(true);
 
-    const response = await loginCliente(nome, senha);
+    const response = await loginCliente(nome.trim(), senha.trim());
 
     console.log(response);
 
